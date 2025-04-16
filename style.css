@@ -1,0 +1,41 @@
+body {
+  width: 300px;
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.folder {
+  margin-left: 15px;
+}
+
+.folder-header {
+  cursor: pointer;
+  padding: 5px 0;
+}
+
+.folder-header::before {
+  content: "\25B6"; /* Right arrow */
+  margin-right: 5px;
+}
+
+.folder.collapsed > .folder-header::before {
+  content: "\25BC"; /* Down arrow */
+}
+
+.folder-content {
+  display: none;
+  margin-left: 15px;
+}
+
+.folder.collapsed > .folder-content {
+  display: block;
+}
+
+.bookmark-item {
+  padding: 3px 0;
+}
+
+.bookmark-item a {
+  text-decoration: none;
+  color: black;
+}
