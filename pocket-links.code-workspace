@@ -1,18 +1,19 @@
 {
-  "folders": [
-    {
-      "path": "."
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "workbench.colorCustomizations": {
+            "activityBar.background": "#382740",
+            "titleBar.activeBackground": "#4E375A",
+            "titleBar.activeForeground": "#FBF9FC",
+            "titleBar.inactiveBackground": "#382740",
+            "titleBar.inactiveForeground": "#FBF9FC",
+        },
+        "editor.tabSize": 4,
+        "editor.detectIndentation": false,
+        "editor.insertSpaces": true,
     }
-  ],
-  "settings": {
-    "workbench.colorCustomizations": {
-      // "activityBar.background": "#382740",
-      "titleBar.activeBackground": "#4E375A",
-      "titleBar.activeForeground": "#FBF9FC",
-      "titleBar.inactiveBackground": "#382740",
-      "titleBar.inactiveForeground": "#FBF9FC",
-    },
-    "editor.tabSize": 2,
-    "editor.detectIndentation": false
-  }
 }
